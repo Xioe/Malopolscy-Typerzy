@@ -5286,12 +5286,13 @@ only screen and (min-resolution: 1.3dppx) {
         position: absolute;
         bottom: 1.5625em;
         left: 2.8125em;
-        width: 80%
+        width: 80%;
     }
 
     .stories article.sticky .article-title h2,
     .stories article.sticky .article-title a {
-        color: #fff
+        color: #fff;
+        text-shadow: 3px 3px #000;
     }
 
     .stories article.sticky .article-title h2 {
