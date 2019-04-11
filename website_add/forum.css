@@ -1,0 +1,23 @@
+* {
+    background-image: url(../assets/images/malopolscyTyperzy_forum.jpg);
+}
+
+button {
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: azure;
+}
+
+button:hover {
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aqua;
+}
