@@ -47,7 +47,7 @@
         }
     </style>
 
-    <link rel='stylesheet' id='trefecta-social-publish-css' href='forum.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='trefecta-social-publish-css' href='../main.css' type='text/css' media='all' />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -73,6 +73,129 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <body>
-        <a href="https://xioe.github.io"><button>WRÓĆ NA STRONĘ GŁÓWNĄ</button></a>
-    </body>
+    <div id="container">
+
+        <header class="nav-bar">
+            <!-- logo -->
+            <a href="https://xioe.github.io">
+                <h1><img src="../assets/images/logo-white.png" style="position: absolute; height: 180%; top:-25%;">
+
+                </h1>
+            </a>
+
+            <!-- mobile nav -->
+            <a href="#" id="nav-opener"><span>Menu</span></a>
+
+
+            <!-- navigation -->
+            <nav>
+                <a id="nav-close" href="#"><i class="icon close-menu-icon"></i></span><span>Zamknij</span></a>
+                <div class="menu-main-navigation-container">
+                    <ul id="menu-main-navigation" class="menu">
+                        <li id="menu-item-104"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a
+                                href="#">KIM JESTEŚMY?</a></li>
+                        <li id="menu-item-442"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a
+                                href="#">GRAMY Z...</a></li>
+                        <li id="menu-item-584"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a
+                                href="https://xioe.github.io/website_add/forum.html">WASZE KUPONY I ANALIZY</a></li>
+                        <li id="menu-item-1310"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"><a
+                                href="https://xioe.github.io/website_add/contact.html">KONTAKT</a></li>
+                    </ul>
+                    <div id="nav-active"></div>
+                </div>
+
+
+                <div class="nav-dropdown">
+                    <a href="https://facebook.com/group/malopolscytyperzy/" class="nav-dropdown-open"><i
+                            class="fab fa-facebook-f fa-2x"></i></a>
+                    <a href="#" class="nav-dropdown-open"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="main-view" style="height:500px;">
+            <div class="view home show-newsletter">
+                <section class="hero">
+                    <div class="slideshow" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                        <div class="slide  slide-type-image title-color-black active">
+                            <div class="slide-image wait-for-image responsive-done image-loaded responsive-ok"
+                                style="background-image: url(../assets/images/malopolscyTyperzy_forum.jpg);">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="content-blend"></div>
+
+                <footer class="bottom">
+                    <div class="footer-inner">
+                        <ul>
+                            <li id="menu-item-699"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699">
+                                <a href="#" style="position: absolute; left:40%;">All rights reserved &copy 2019
+                                </a></li>
+                        </ul>
+                    </div>
+                </footer>
+
+                <div id="cookie">
+                    <p>This website uses cookies to allow us to see how the site is used. <a href="#"
+                            class="cookie-choice cookie-accept">Allow cookies</a><a href="#"
+                            class="cookie-choice cookie-close"><i class="icon close-icon"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div id="image-loader" style="display: none;">
+                <!-- used for js image loading  -->
+            </div>
+
+
+            <div id="intro-animation">
+                <div class="intro-logo">
+                    <div class="intro-logo-back"></div>
+                    <div class="intro-logo-front"></div>
+                </div>
+            </div>
+
+            <script>
+                window.TFA = window.TFA || {};
+                TFA.SITE_URL = 'https://www.trefectamobility.com';
+                TFA.TEMPLATE_URL = 'https://www.trefectamobility.com/wp-content/themes/trefecta-phase-2';
+                TFA.PLUGIN_URL = 'https://www.trefectamobility.com/wp-content/plugins';
+                TFA.AJAX_URL = 'https://www.trefectamobility.com/wp-admin/admin-ajax.php';
+                TFA.DEV = false;
+                TFA.IS_MAGENTO = false;
+                TFA.MAGENTO_JS_DIR = '/store/skin/frontend/default/trefecta/js/';
+            </script>
+
+            <script data-main="https://www.trefectamobility.com/wp-content/themes/trefecta-phase-2/js/main-build"
+                src="https://www.trefectamobility.com/wp-content/themes/trefecta-phase-2/js/vendor/requirejs/require.js">
+            </script>
+            <script>
+                var _gaq = [
+                    ['_setAccount', 'UA-1677031-14'],
+                    ['_trackPageview']
+                ];
+                (function (d, t) {
+                    var g = d.createElement(t),
+                        s = d.getElementsByTagName(t)[0];
+                    g.src = '//www.google-analytics.com/ga.js';
+                    s.parentNode.insertBefore(g, s)
+                }(document, 'script'));
+            </script>
+
+</body>
+
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: www.trefectamobility.com @ 2019-04-03 13:14:24 by W3 Total Cache -->
