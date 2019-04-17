@@ -18,12 +18,12 @@ $message = $_POST["message"];
 
 
 $to      = 'Wortix80@gmail.com';
-$subject = $title;
+$subject = 'xd';
 $message = 'Imie:'.$name."\n".'Email:'.$email."\n".'Wiadomość:'.$message;
 
  echo $message;
 
-$headers = 'From:' . $email . "\r\n" .
+$headers = 'From: xd' . "\r\n" .
     'Reply-To: mateusz@burnagiel.pl' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
